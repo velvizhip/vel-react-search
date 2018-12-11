@@ -1,0 +1,63 @@
+h1, p {
+  font-family: sans-serif;
+}
+body{
+  background-color: #F9F2EC;
+  font-family: sans-serif;
+  margin: 0;
+}
+.logo{
+  font-size: 31px;
+}
+.header{
+  height:70px;
+  background-color:#8B5A2B;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 15px 20px 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px #C98C52;
+}
+.search-form{
+  margin-top: 150px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+.form-group input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #E1BF9F;
+    border-right: 0;
+    padding-left: 5px;
+}
+input[type="text"], input[type="password"], textarea, select, button { 
+    outline: none;
+}
+.form-group button  {
+    height: 44px;
+    width: 106px;
+    border: 1px solid #E1BF9F;
+    border-left: 0;
+    background-color: #C98C52;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nodata-section{
+  margin-left: 30%;
+}
+.table-section{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.star{
+    display: inline-block;
+    vertical-align: top;
+    color: red;
+    font-size: 27px;
+    margin-left: 15px;
+    cursor: pointer;
+}
